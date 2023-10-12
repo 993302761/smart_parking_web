@@ -37,7 +37,7 @@ export default {
     },
     state: {
         user: {
-            name: 'zxx',
+            name: 'lyq',
             id: "123",
             index: 0,
             img: [

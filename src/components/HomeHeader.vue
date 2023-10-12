@@ -18,11 +18,11 @@
           />
         </el-badge>
         <div class="username" v-if="getLogin">
-          <div class="name">{{ getUser.name }},</div>
+          <div class="name">{{ getUser.name }}</div>
           <div style="color: gery; font-size: 10px">hello!</div>
         </div>
         <div class="username" v-else>
-          <div class="name">游客,</div>
+          <div class="name">游客/div>
           <div style="color: gery; font-size: 10px">hello!</div>
         </div>
         <div style="margin-left: 5px" v-if="getLogin">
